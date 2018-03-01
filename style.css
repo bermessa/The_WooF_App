@@ -3,37 +3,66 @@
     text-align: center;
 }
 
-#page1 {
-    background-color: #c3d8e5;
+#section1 {
+    background-image: url("images/dogface.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 
-#page2 {
+#section2 {
     background-color: #e68960;
 }
 
 
-#page3 {
+#section3 {
     background-color: #c3d8e5;
 }
 
 
-#header, #footer{
+/*#header, #footer {
+position:fixed;
+height: 50px;
+display:block;
+width: 100%;
+background: white;
+z-index:9;
+color: black;
+padding: 20px 0 0 0;
+}*/
+
+#header {
+    top:0px;
     position:fixed;
-    height: 50px;
+    height: 100px;
     display:block;
     width: 100%;
-    background: white;
     z-index:9;
+    background: white;
     color: black;
-    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-#header{
-    top:0px;
-    text-align: center;
+
+#navLinks {
+    padding: 40px;
 }
-#footer{
+
+#header img {
+    padding-left: 30px;
+}
+
+#footer {
     bottom:0px;
     text-align:center;
+    position:fixed;
+    height: 30px;
+    display:block;
+    width: 100%;
+    z-index:9;
+    background: white;
+    color: black;
+    padding: 20px 0 0 0;
 
 }
