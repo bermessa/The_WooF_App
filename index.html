@@ -6,8 +6,20 @@
     <script src="vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="jquery.fullPage.js"></script>
     <title>The WooF! App</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
+<!--     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script> -->
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+        sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+    });
+        });
+    </script>
+
 </head>
 
 <body>
@@ -16,13 +28,13 @@
     <div id="footer">Footer</div>
 
     <div id="fullpage">        
-        <div class="section fp-section fp-table" id="section1">Section 1</div>
-        <div class="section fp-section fp-table" id="section2">
+        <div class="section" id="section1">Section 1</div>
+        <div class="section " id="section2">
             <div class="slide">Section 2 Slide 1</div>
             <div class="slide">Section 2 Slide 2</div>
             <div class="slide">Section 2 Slide 3</div>
         </div>
-        <div class="section fp-section fp-table" id="section3">Section 3</div>
+        <div class="section" id="section3">Section 3</div>
     </div>            
 </body> 
 </html>
