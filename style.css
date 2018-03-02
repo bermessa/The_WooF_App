@@ -1,3 +1,7 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 .section {
     font-size: 6em;
     text-align: center;
@@ -11,12 +15,12 @@
 
 
 #section2 {
-    background-color: #e68960;
+    background-color: #f7fbfe;
 }
 
 
 #section3 {
-    background-color: #c3d8e5;
+    background-color: #f7fbfe;
 }
 
 
@@ -34,15 +38,20 @@ padding: 20px 0 0 0;
 #header {
     top:0px;
     position:fixed;
-    height: 100px;
+    height: 90px;
     display:block;
     width: 100%;
     z-index:9;
-    background: white;
-    color: black;
+    background: #3e4692;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid 4px #7ea1c9;
+}
+
+#header a {
+    color: #f7fbfe;
+    padding: 5px;
 }
 
 #navLinks {
@@ -55,14 +64,13 @@ padding: 20px 0 0 0;
 
 #footer {
     bottom:0px;
-    text-align:center;
-    position:fixed;
-    height: 30px;
+    position:absolute;
+    height: 20px;
     display:block;
     width: 100%;
     z-index:9;
-    background: white;
+    background: #f7fbfe;
     color: black;
-    padding: 20px 0 0 0;
+    padding: 20px 0px 10px 20px;
 
 }
