@@ -26,15 +26,15 @@ nav a {
 
 
 .section {
-    font-size: 6em;
-    text-align: center;
+/*    font-size: 6em;
+*/    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
 .sectionHeader {
-   font-size: 4vw;
-   text-align: center;
-   font-family: 'Poppins', sans-serif;   
+ font-size: 4vw;
+ text-align: center;
+ font-family: 'Poppins', sans-serif;   
 }
 
 #section1 {
@@ -84,7 +84,6 @@ nav a {
     }
 
     #section1 img {
-        padding: 0px;
         width: 20vh;
     }
 
@@ -96,4 +95,9 @@ nav a {
     #navLinksRight {
         text-align: right;
     }
+
+    #section1 {
+    background-size: 100% 50%;
+    background-color: #f9fafe;
+ }
 }
