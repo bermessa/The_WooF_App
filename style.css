@@ -43,7 +43,7 @@
 #header {
     top:0px;
     position:fixed;
-    height: 12vh;
+    height: 11vh;
     display:block;
     width: 100%;
     z-index:9;
@@ -63,6 +63,7 @@
 
 #navLinks {
     padding: 40px 10px 40px 10px;
+    font-size: larger;
 }
 
 #header img {
