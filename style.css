@@ -2,9 +2,7 @@ nav {
     top:0px;
     position:fixed;
     height: 11vh;
-    display:block;
     width: 100%;
-    z-index:9;
     background: #3e4692;
     display: flex;
     justify-content: space-between;
