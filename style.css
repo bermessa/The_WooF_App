@@ -80,7 +80,8 @@ nav a {
 @media screen and (max-width: 800px) {
 
     #section1 .sectionHeader {
-        font-size: 5vh;
+        font-size: xx-large;
+        padding: 10px;
     }
 
     #section1 img {
