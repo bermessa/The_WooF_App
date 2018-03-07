@@ -32,7 +32,7 @@ export default class Example extends React.Component {
     render() {
         return (
             <div>
-                <Navbar color="faded" light expand="md" fixed-top>
+                <Navbar color="faded" light expand="md" className="fixed-top">
                     <NavbarBrand href="/" className="mr-auto">
                         <img src="./images/bluelogo.png" alt="logo" />
                     </NavbarBrand>
@@ -42,19 +42,7 @@ export default class Example extends React.Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="#" style={{color: 'white'}}>Components</NavLink>
-                            </NavItem>
-                            
-                            <NavItem>
-                                <NavLink href="#" style={{color: 'white'}}>Github</NavLink>
-                            </NavItem>
-                            
-                            <NavItem>
-                                <NavLink href="#" style={{color: 'white'}}>Components</NavLink>
-                            </NavItem>
-                            
-                            <NavItem>
-                                <NavLink href="#" style={{color: 'white'}}>Github</NavLink>
+                                <NavLink href="/contact" style={{color: 'white'}}>Contact Us</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
