@@ -8,8 +8,8 @@ import ContactUs from "./pages/contactus"
 const App = () => (
   <Router>
       <Switch>
-        <Route path="/" component={LandingPage} />
-        <Route path="/contact" component={ContactUs} />
+        <Route exact path="/" component={LandingPage} />
+        <Route exact path="{`${process.env.PUBLIC_URL}/contact`}" component={ContactUs} />
       </Switch>
     </Router>
 );
