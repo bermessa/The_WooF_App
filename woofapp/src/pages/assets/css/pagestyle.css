@@ -1,0 +1,15 @@
+.section1 {
+    text-align: center;
+}
+
+.sectionHeader {
+    font-size: 4vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+.section1 img {
+    width: 30vh;
+    padding: 10px;
+}
