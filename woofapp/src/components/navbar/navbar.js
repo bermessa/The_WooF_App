@@ -8,9 +8,8 @@ import {
     NavItem,
     NavLink,
     UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
+    DropdownToggle
+
 }
 from 'reactstrap';
 import "../assets/css/compstyle.css";

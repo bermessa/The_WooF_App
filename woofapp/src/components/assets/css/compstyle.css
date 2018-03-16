@@ -12,3 +12,38 @@
 .nav-link {
     color: white;
 }
+
+.titleheader {
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #7ea1c9;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textcontainer {
+    margin-bottom: 30px;
+}
+
+.linksContainer {
+    color: #52575a;
+    font-size: 16px;
+    text-align: right;
+    /*margin-right: 30px;*/
+}
+
+.socialMediaContainer {
+    text-align: center;
+}
+
+.copyright {
+    text-align: left;
+    /*margin-left: 30px;*/
+    /*padding-top: 15px;*/
+    color: #52575a;
+}

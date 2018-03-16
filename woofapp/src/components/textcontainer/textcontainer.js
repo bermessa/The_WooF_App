@@ -6,7 +6,7 @@ export default class Wrapper extends React.Component {
 
     render() {
         return (
-            <Container>
+            <Container className="textcontainer">
                 {this.props.children}
             </Container>
         );

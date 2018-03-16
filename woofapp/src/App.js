@@ -1,15 +1,17 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./pages/landingpage";
-import ContactUs from "./pages/contactus"
+import ContactPage from "./pages/contact";
+import TermsPage from "./pages/terms";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 const App = () => (
   <Router>
       <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route exact path="{`${process.env.PUBLIC_URL}/contact`}" component={ContactUs} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={LandingPage} />
+        <Route exact path="/contact" component={ContactPage} />
+        <Route exact path="/terms" component={TermsPage} />
       </Switch>
     </Router>
 );
