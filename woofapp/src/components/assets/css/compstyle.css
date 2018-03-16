@@ -47,3 +47,18 @@
     /*padding-top: 15px;*/
     color: #52575a;
 }
+
+
+@media screen and (max-width: 800px) {
+
+    .socialImg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .linksContainer,
+    .copyright {
+        font-size: 12px;
+    }
+
+}

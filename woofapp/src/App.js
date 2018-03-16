@@ -10,8 +10,8 @@ const App = () => (
   <Router>
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={LandingPage} />
-        <Route exact path="/contact" component={ContactPage} />
-        <Route exact path="/terms" component={TermsPage} />
+        <Route exact path={process.env.PUBLIC_URL + '/contact'} component={ContactPage} />
+        <Route exact path={process.env.PUBLIC_URL + '/terms'} component={TermsPage} />
       </Switch>
     </Router>
 );

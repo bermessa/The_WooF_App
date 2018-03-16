@@ -11,8 +11,8 @@ export default class Footer extends Component {
                 <Row>
                 <Col xs="4" sm="4" md="4" >
                     <p className="copyright">
-                        © Copyright 2018 <br/>
-                        UNCC BootCamp
+                        © 2017 Woof, Inc. <br/>
+                        All rights reserved.
                     </p>
                 </Col>
                 
