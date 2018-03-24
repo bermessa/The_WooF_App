@@ -90,9 +90,26 @@
     letter-spacing: 1px;
 }
 
-.aboutus h1 {
+.aboutus h1,
+.contactus h1 {
     color: #3e4692;
     text-shadow: 2px 2px 0px rgba(126, 161, 201, 0.9);
+}
+
+.contactus {
+    text-align: center;
+    margin-top: 13vh;
+}
+
+.contactus h4 {
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.contactus img {
+    width: 30%;
+    height: auto;
+    margin: 30px;
 }
 
 @media screen and (max-width: 1040px) {
@@ -121,5 +138,10 @@
 
     #servicesImg {
         text-align: center;
+    }
+
+    .contactus img {
+        width: 60%;
+        height: auto;
     }
 }

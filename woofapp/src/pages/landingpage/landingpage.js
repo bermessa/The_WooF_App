@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Navbar from "../../components/navbar";
 import TextContainer from "../../components/textcontainer";
 import TitleHeader from "../../components/titleheader";
-import ServiceCard from "../../components/servicecard";
 import Footer from "../../components/footer";
 import {
     Row,
@@ -11,10 +10,9 @@ import {
     CardImg,
     CardTitle,
     CardBody,
-    Button,
     CardText,
-    CardDeck,
-    CardSubtitle
+    CardDeck
+
 }
 from 'reactstrap';
 import "../assets/css/pagestyle.css";
@@ -104,7 +102,7 @@ export default class LandingPage extends React.Component {
                                 <CardImg top width="100%" src="undraw_images/map.svg" alt="Card image cap" />
                                 <CardBody>
                                   <CardTitle>Real Time Video and GPS Map</CardTitle>
-                                  <CardText>Watch an On-Demand video of your pup at any time during a service, or track the distance and location of your pups walk through our GPS Tracking system.</CardText>
+                                  <CardText>Watch an On-Demand video of your pup at any time during a service, or track the distance and location of your pups walk through our GPS tracking system.</CardText>
                                 </CardBody>
                               </Card>
                               

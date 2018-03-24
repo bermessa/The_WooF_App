@@ -6,10 +6,7 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle
-
+    NavLink
 }
 from 'reactstrap';
 import "../assets/css/compstyle.css";
@@ -40,6 +37,9 @@ export default class Example extends React.Component {
                     
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <NavLink href="/faq" style={{color: 'white'}}>FAQ</NavLink>
+                            </NavItem>
                             <NavItem>
                                 <NavLink href="/contact" style={{color: 'white'}}>Contact Us</NavLink>
                             </NavItem>
