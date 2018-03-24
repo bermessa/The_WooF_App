@@ -1,7 +1,10 @@
+#root {
+    background-image: url("../images/ice_age.png")
+}
+
 .section1 {
     text-align: center;
     position: relative;
-    /*border-bottom: solid 3px white;*/
 }
 
 .section1wrapper {
@@ -10,13 +13,14 @@
     top: 70px;
     text-align: center;
     width: 100%;
+    margin-top: 5vh;
 }
 
 .section1header {
-    font-size: 4vw;
+    font-size: 4em;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    padding-top: 30px;
+    margin: 0px 250px 0px 250px;
 }
 
 .appleImg {
@@ -24,12 +28,98 @@
     padding: 10px;
 }
 
+.appleImgInAboutUs {
+    width: 20%;
+    padding: 10px;
+}
+
 .dogBackground {
-    width: 105%;
+    max-width: 100%;
+    height: auto;
     margin-top: 13vh;
 }
 
-.section2 {
-    font-family: 'Roboto', sans-serif;
-    padding-top: 30px;
+.termsDiv,
+.privacyDiv,
+.cancelDiv {
+    margin-top: 60px;
+    border: 1px solid black;
+    padding: 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 90vh;
+    background-color: white;
+}
+
+.card-img-top {
+    height: 30vh;
+}
+
+.servicesImg {
+    width: 60%;
+    height: auto;
+    margin: 20px;
+}
+
+#servicesImg {
+    text-align: none;
+}
+
+.servicesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesOffered {
+    font-family: 'Poppins', sans-serif;
+    line-height: 150%;
+    text-align: center;
+}
+
+.checkmark {
+    color: #3e4692;
+    font-size: xx-large;
+}
+
+.aboutus {
+    font-weight: 200;
+    font-size: x-large;
+    margin: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.aboutus h1 {
+    color: #3e4692;
+    text-shadow: 2px 2px 0px rgba(126, 161, 201, 0.9);
+}
+
+@media screen and (max-width: 1040px) {
+    .section1header {
+        font-size: x-large;
+        margin: 0px;
+    }
+
+    .appleImg {
+        width: 30%;
+    }
+
+    .appleImgInAboutUs {
+        width: 80%;
+    }
+
+    .servicesImg {
+        width: 50%;
+        height: auto;
+    }
+
+    .servicesContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #servicesImg {
+        text-align: center;
+    }
 }
