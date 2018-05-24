@@ -13,6 +13,14 @@
     color: white;
 }
 
+
+.navbar-collapse a.nav-link {
+    color: black;
+    background-color: #3e4692;
+    border-radius: 5px;
+    text-align: center;
+}
+
 .titleheader {
     font-size: 52px;
     font-family: 'Poppins', sans-serif;

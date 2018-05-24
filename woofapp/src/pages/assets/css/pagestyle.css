@@ -9,28 +9,25 @@
 
 .section1wrapper {
     position: absolute;
-    z-index: 1;
-    top: 70px;
+    top: 100px;
+    right: 15px;
     text-align: center;
-    width: 100%;
+    width: 40%;
     margin-top: 5vh;
 }
 
 .section1header {
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    margin: 0px 250px 0px 250px;
 }
 
 .appleImg {
-    width: 20%;
-    padding: 10px;
+    width: 190px;
 }
 
 .appleImgInAboutUs {
-    width: 20%;
-    padding: 10px;
+    width: 210px;
 }
 
 .dogBackground {
@@ -96,10 +93,16 @@
     text-shadow: 2px 2px 0px rgba(126, 161, 201, 0.9);
 }
 
-.contactus {
+.contactus,
+.FAQpage {
     text-align: center;
     margin-top: 13vh;
 }
+
+.FAQcontainer {
+    padding-top: 50px;
+}
+
 
 .contactus h4 {
     letter-spacing: 1px;
@@ -112,18 +115,22 @@
     margin: 30px;
 }
 
-@media screen and (max-width: 1040px) {
+.contactInfo {
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+
     .section1header {
         font-size: x-large;
-        margin: 0px;
+    }
+
+    .section1wrapper {
+        top: 70px;
     }
 
     .appleImg {
-        width: 30%;
-    }
-
-    .appleImgInAboutUs {
-        width: 80%;
+        width: 100px;
     }
 
     .servicesImg {

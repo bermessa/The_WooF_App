@@ -13,11 +13,16 @@ class ContactPage extends Component {
     			        <TextContainer>
     			            <div className="contactus">
     			                <br/>
-    			                <img src="undraw_images/cautiousdog.svg" alt="Cautious Dog"/><br/>
+    			                <img src="undraw_images/cautiousdog.svg" alt="Cautious Dog"/><br/><br/>
                                 <h1>CONTACT US</h1>
-                                <h4>We would love to hear from you</h4><br/>
-                                <strong><h5>support@thewoofapp.com</h5></strong>
-                                <br/><br/><br/><br/>
+                                <h4>We would love to hear from you</h4><br/><br/>
+    			            </div>
+    			            
+    			            <div className="contactInfo">
+    			                <br/>
+                                <strong><h5><span><img src="social_images/location.png" alt="Location" width="25px" /></span>&nbsp;&nbsp;Denver, Colorado</h5></strong>
+                                <strong><h5><span><img src="social_images/mail.png" alt="Email Us" width="25px" /></span>&nbsp;&nbsp;support@thewoofapp.com</h5></strong>
+                                <br/><br/><br/>
     			            </div>
     			        </TextContainer>
 

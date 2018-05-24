@@ -1,28 +1,38 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import classnames from 'classnames';
 import Navbar from "../../components/navbar";
 import TextContainer from "../../components/textcontainer";
-import TitleHeader from "../../components/titleheader";
 import Footer from "../../components/footer";
-import { Row, Col } from 'reactstrap';
 import "../assets/css/pagestyle.css";
 
-class FAQPage extends Component {
-    render() {
-        return (
-            <div>
-			    <Navbar/>
 
-    			    <TitleHeader>Contact Info</TitleHeader>
-    			        <TextContainer>
-    			            <div className="section2">
-                                FAQ
-    			            </div>
-    			        </TextContainer>
+export default class FAQPage extends React.Component {
+  constructor(props) {
+    super(props);
 
-			    <Footer/>
-			</div>
-        );
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      activeTab: '1'
+    };
+  }
+
+  toggle(tab) {
+    if (this.state.activeTab !== tab) {
+      this.setState({
+        activeTab: tab
+      });
     }
+  }
+  render() {
+    return (
+      <div>
+			    <Navbar/>
+    		        <TextContainer>
+    		            <p className="FAQpage"> Currently under construction </p>
+        </TextContainer>
+    <Footer/>
+</div>
+    );
+  }
 }
-
-export default FAQPage;

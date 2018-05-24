@@ -25,20 +25,21 @@ export default class LandingPage extends React.Component {
             <div>
 			    <Navbar/>
 			        <div className="section1">
-			            <img src="../images/mtndog.jpg" alt="dog" class="dogBackground"/>
+			            <img src="../images/dog.jpg" alt="dog" class="dogBackground" width="100%" />
 			            
                         <div className="section1wrapper">
                             <div className="section1header font-effect-outline"> 
                                 EVOLVING THE WAY PETS ARE CARED FOR 
                             </div>
                             <div>
+                                <br/>
                                 <a href="https://itunes.apple.com/us/app/woof-care-dog-walking-more/id1261900748?ls=1&mt=8" target="_blank">
                                         <img src="app_images/app-store.png" alt="Apple Store Logo" className="appleImg"/>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    
+
                     
 			        <TextContainer>
 			            <Row className="aboutus">
@@ -49,8 +50,9 @@ export default class LandingPage extends React.Component {
 			                    <p>Love working with dogs? You can apply to be a specialist in the WooF! Care App. <strong><span style={{color: '#7ea1c9'}}>Be your own boss</span></strong> and start earning today!</p>
 			                    
 			                    <p>
+			                        <br/>
                                     <a href="https://itunes.apple.com/us/app/woof-care-dog-walking-more/id1261900748?ls=1&mt=8" target="_blank">
-                                            <img src="app_images/app-store.png" alt="Apple Store Logo" className="appleImgInAboutUs"/>
+                                            <img src="app_images/app-store.png" alt="Apple Store Logo" width="190px"/>
                                     </a>			                    
 			                    </p>
 	                        </Col>
@@ -94,7 +96,8 @@ export default class LandingPage extends React.Component {
                                 <CardImg top width="100%" src="undraw_images/collaboration.svg" alt="Card image cap" />
                                 <CardBody>
                                   <CardTitle>Collaboration and Communication</CardTitle>
-                                  <CardText>Enable notifications to place new requests, see new bids, and updates on when a service starts/ends. Rebook your favorite specialist or send them an in-app message.</CardText>
+                                  <CardText>Enable notifications to see new dog care requests, when a service starts/ends, and new bids from specialists. Rebook or message your favorite specialist at any time!
+                                  </CardText>
                                 </CardBody>
                               </Card>
                               
